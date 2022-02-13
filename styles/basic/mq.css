@@ -29,6 +29,9 @@
 /* MOBILE ONLY  */
 
 @media (max-width: 740px) {
+    .main-layout {
+        max-width: 660px;
+    }
     .main-nav {
         position: fixed;
         top: 0;
@@ -75,5 +78,11 @@
     }
     .btn-menu {
         display: block !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-layout {
+        max-width: 350px;
     }
 }
