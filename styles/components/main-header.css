@@ -1,12 +1,12 @@
 .main-header {
-    height: 130px;
+    height: auto;
     background-color: var(--clr1);
     /* position: fixed; */
     /* width: 100%; */
 }
 
 .main-nav>li {
-    width: 8.25em;
+    width: 130px;
     text-align: center;
     border-right: 1px solid black;
 }
@@ -19,11 +19,11 @@
     line-height: 130px;
 }
 
-.main-header .main-nav-container .main-nav a:hover {
-    color: var(--clr2);
+.main-nav a:hover {
+    color: var(--clr2) !important;
 }
 
-.main-header .main-nav-container .main-nav a {
+.main-nav a {
     text-decoration: none;
     color: var(--clr3);
 }
@@ -33,6 +33,10 @@
 }
 
 .clicked {
-    height: 130px;
-    border-bottom: 5px solid var(--clr2);
+    height: auto;
+    box-shadow: inset 0px -5px var(--clr2);
+}
+
+.main-nav-container a {
+    display: block;
 }

@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="main-screen" onclick="toggleMenu()"></div>
     <header class="main-header">
         <div class="main-header-container main-layout flex space-between align-center">
             <div class="logo">Blogin<span>.</span></div>
@@ -22,40 +23,42 @@
                     </li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+                <button class="btn-menu" style="display: none;" onclick="toggleMenu()">☰</button>
+
             </nav>
         </div>
     </header>
     <main class="main-content-layout main-layout ">
         <div class="card flex">
-            <img src="../img/img1.svg" alt="" class="card-image">
+            <img src="../img/img1.png" alt="" class="card-image">
             <div class="card-content flex column space-between">
                 <h2 class="card-title">DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
-                <div class="card-text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                <div class="card-text secondery">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</div>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="card-text secondery">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
                 <button class="card-button">Continue Reading</button>
             </div>
         </div>
         <div class="card flex">
-            <img src="../img/img2.svg" alt="" class="card-image">
+            <img src="../img/img2.png" alt="" class="card-image">
             <div class="card-content flex column space-between">
                 <h2 class="card-title">DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
-                <div class="card-text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                <div class="card-text secondery">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</div>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="card-text secondery">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
                 <button class="card-button">Continue Reading</button>
             </div>
         </div>
         <div class="card flex">
-            <img src="img/img3.svg" alt="" class="card-image">
+            <img src="img/img3.png" alt="" class="card-image">
             <div class="card-content flex column space-between">
                 <h2 class="card-title">DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
-                <div class="card-text">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                <div class="card-text secondery">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</div>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="card-text secondery">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
                 <button class="card-button">Continue Reading</button>
             </div>
         </div>
@@ -80,6 +83,12 @@
         </div>
     </footer>
 
+
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle("menu-open");
+        }
+    </script>
 </body>
 
 </html>
