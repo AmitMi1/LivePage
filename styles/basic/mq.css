@@ -1,0 +1,83 @@
+    @media (max-width: 1300px) {
+        .main-layout {
+            margin-right: 8em;
+            margin-left: 8em;
+        }
+    }
+    
+    @media (max-width: 1150px) {
+        .main-layout {
+            margin-right: 4em;
+            margin-left: 4em;
+        }
+    }
+    
+    @media (max-width: 1000px) {
+        .card {
+            flex-direction: column;
+        }
+        .main-nav>li {
+            width: 6em !important;
+        }
+        .main-header {
+            height: 100px !important;
+        }
+        .main-nav-container {
+            line-height: 100px !important;
+        }
+        .clicked {
+            height: 100px !important;
+        }
+        .card-image {
+            margin-inline-end: 0 !important;
+            margin-bottom: 20px;
+        }
+        .card-text {
+            padding-bottom: 20px;
+        }
+        .card-title {
+            padding-bottom: 10px;
+        }
+    }
+    
+    @media (max-width: 760px) {
+        .main-nav>li {
+            width: 6em !important;
+            font-size: 0.8rem;
+        }
+        .main-header {
+            height: 80px !important;
+        }
+        .main-nav-container {
+            line-height: 80px !important;
+        }
+        .clicked {
+            height: 80px !important;
+        }
+    }
+    
+    @media (max-width: 560px) {
+        .main-layout {
+            margin-right: 1em;
+            margin-left: 1em;
+        }
+        .main-nav>li {
+            width: 8em !important;
+            font-size: 0.5rem;
+        }
+    }
+    
+    @media (max-width: 400px) {
+        .main-nav>li {
+            width: 6em !important;
+        }
+        .main-header {
+            height: 50px !important;
+        }
+        .main-nav-container {
+            line-height: 50px !important;
+        }
+        .clicked {
+            height: 50px !important;
+        }
+    }

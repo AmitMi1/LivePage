@@ -1,0 +1,19 @@
+.main-layout {
+    margin: 0 auto;
+    margin-right: 16.25em;
+    margin-left: 16.25em;
+}
+
+.main-content-layout>.card {
+    padding-bottom: 69.5px;
+}
+
+.main-content-layout>.card:first-child {
+    padding-top: 69.5px;
+}
+
+.main-content-layout,
+.page-nav {
+    border-left: 1px solid var(--clr10);
+    border-right: 1px solid var(--clr10);
+}

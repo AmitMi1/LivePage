@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    color: var(--clr5);
+    font-family: lato-reg, serif;
+    line-height: 1.25;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-family: lato-bold, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo {
+    font-family: eurofurence, monospace;
+    color: var(--clr3);
+    font-size: 2.5em;
+}
+
+.logo span {
+    color: var(--clr2);
+}

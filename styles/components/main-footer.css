@@ -1,0 +1,41 @@
+.main-footer {
+    padding: 70px 0;
+    text-align: center;
+    border-top: 1px solid var(--clr10);
+}
+
+.main-footer .logo {
+    color: var(--clr1);
+    padding-bottom: 28.7px;
+}
+
+.rights {
+    color: var(--clr9);
+    padding-bottom: 37.3px;
+}
+
+.social-icons>* {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr11);
+    margin-inline-end: 20px;
+}
+
+.social-icons .facebook:hover {
+    background-color: #1877f2;
+}
+
+.social-icons .twitter:hover:hover {
+    background-color: #1da1f2;
+}
+
+.social-icons .behance:hover:hover {
+    background-color: #1769ff;
+}
+
+.social-icons .dribbble:hover:hover {
+    background-color: #ea4c89;
+}
