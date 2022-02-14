@@ -7,6 +7,7 @@ html {
     font-family: lato-reg, serif;
     line-height: 1.25;
     overflow-x: hidden;
+    /* position: relative; */
 }
 
 body {
