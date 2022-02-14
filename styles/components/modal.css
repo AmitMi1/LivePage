@@ -1,7 +1,7 @@
 .modal {
     width: 400px;
     height: 500px;
-    background-color: var(--clr1);
+    background-color: #292929f1;
     color: var(--clr3);
     position: fixed;
     top: 50%;
@@ -14,8 +14,9 @@
     color: white;
     border: 0;
     background-color: rgba(0, 0, 0, 0);
-    font-size: 20px;
-    margin: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-inline-end: 10px;
     cursor: pointer;
 }
 
@@ -24,8 +25,12 @@
 }
 
 .modal-container>* {
-    margin: 10px;
+    margin: 20px;
     text-align: center;
+}
+
+.modal-container h2 {
+    margin: 0;
 }
 
 .fade-in {
