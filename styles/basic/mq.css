@@ -30,7 +30,8 @@
 
 @media (max-width: 740px) {
     .main-layout {
-        max-width: 660px;
+        max-width: 680px;
+        padding: 0px 10px;
     }
     .modal {
         width: 100vw;
@@ -46,6 +47,7 @@
     }
     .modal>button {
         font-size: 40px;
+        margin-top: 20px;
     }
     .main-nav {
         position: fixed;
@@ -93,8 +95,26 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (min-width: 640px)and (max-width: 740px) {
     .main-layout {
-        max-width: 350px;
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 540px)and (max-width: 640px) {
+    .main-layout {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 440px)and (max-width: 540px) {
+    .main-layout {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 440px) {
+    .main-layout {
+        max-width: 360px;
     }
 }
