@@ -4,11 +4,11 @@
 }
 
 .main-content-layout>.card {
-    padding-bottom: 69.5px;
+    padding-bottom: 70px;
 }
 
 .main-content-layout>.card:first-child {
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .main-content-layout,
