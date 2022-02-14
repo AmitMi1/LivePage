@@ -37,7 +37,15 @@
         height: 100vh;
     }
     .modal-container {
-        margin: 70px;
+        /* margin: 50px; */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80vw;
+    }
+    .modal>button {
+        font-size: 40px;
     }
     .main-nav {
         position: fixed;
