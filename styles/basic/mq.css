@@ -31,7 +31,7 @@
 @media (max-width: 740px) {
     .main-layout {
         max-width: 680px;
-        padding: 0px 10px;
+        /* padding: 10px; */
     }
     .modal {
         width: 100vw;
@@ -89,6 +89,7 @@
     }
     .card {
         flex-direction: column;
+        padding: 0 10px;
     }
     .btn-menu {
         display: block !important;
