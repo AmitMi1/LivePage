@@ -98,6 +98,11 @@
     }
     .btn-menu {
         display: block !important;
+        font-size: 30px;
+        color: var(--clr3);
+        background-color: rgba(0, 0, 0, 0);
+        border: 0;
+        cursor: pointer;
     }
     .main-content-layout>.card:first-child {
         padding-top: 90px;

@@ -22,6 +22,7 @@
     align-items: center;
     background-color: var(--clr11);
     margin-inline-end: 20px;
+    cursor: pointer;
 }
 
 .social-icons .facebook:hover {
