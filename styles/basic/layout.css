@@ -1,8 +1,6 @@
 .main-layout {
     margin: 0 auto;
     max-width: 980px;
-    /* margin-right: 16.25em; */
-    /* margin-left: 16.25em; */
 }
 
 .main-content-layout>.card {

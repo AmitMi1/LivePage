@@ -7,13 +7,8 @@
 .card-image {
     margin-inline-end: 41px;
     object-fit: contain;
-    /* width: 100%; */
     flex-basis: 50%;
     flex: 1;
-}
-
-.card {
-    /* max-height: 500px; */
 }
 
 .card-content {
