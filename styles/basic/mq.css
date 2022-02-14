@@ -31,14 +31,12 @@
 @media (max-width: 740px) {
     .main-layout {
         max-width: 680px;
-        /* padding: 10px; */
     }
     .modal {
         width: 100vw;
         height: 100vh;
     }
     .modal-container {
-        /* margin: 50px; */
         position: fixed;
         top: 50%;
         left: 50%;
